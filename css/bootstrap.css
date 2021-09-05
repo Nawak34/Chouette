@@ -51,7 +51,8 @@ template {
 }
 
 a {
-    background-color: transparent
+	background-color: transparent;
+	font-weight: bold;
 }
 
 a:active,
@@ -1436,7 +1437,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
@@ -3091,7 +3092,7 @@ label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: 700
+    font-weight: bold;
 }
 
 input[type=search] {
@@ -3682,9 +3683,10 @@ textarea.input-lg {
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+	color: #000000;
 }
 
 .btn.focus,
