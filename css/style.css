@@ -362,13 +362,13 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/* Les codes ajoutés*/
 #cita-text
 {
     font-size: 1.3em;
     font-style: italic;
     color: #575757;
 }
-
 #cita-auteur
 {
     font-size: 1em;
@@ -383,6 +383,12 @@ p {
 }
 .text-reduit{
 	font-size:1em;
+}
+.label-formu{
+	font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+	
 }
 @media (min-width: 768px) {
     .site-navigation {
@@ -804,6 +810,10 @@ h4 {
 }
 
 .tc-white {
+	color: #000000!important;
+	font-weight: bold;
+}
+.tc-pastel {
 	color: #F3976C!important;
 	font-weight: bold;
 }
