@@ -506,6 +506,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+	color: grey!important;
 }
 
 .icon-lg {
@@ -814,8 +815,9 @@ h4 {
 	font-weight: bold;
 }
 .tc-pastel {
-	color: #F3976C!important;
+	color: #000000!important;
 	font-weight: bold;
+	font-size: 1.6em;
 }
 
 .btn-atomic-tangerine {
@@ -864,6 +866,7 @@ h4 {
 .bg-presentation {
     background-image: url("../img/image-de-presentation.jpg");
 }
+.contact{font-size:1em;font-style:bold;color:#000!important;}
 
 @media (max-width: 1024px) {
     .bloc {
