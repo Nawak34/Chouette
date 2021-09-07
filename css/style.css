@@ -382,7 +382,7 @@ p {
     font-size: 1.6em;
 }
 .text-reduit{
-	font-size:1em;
+	font-size:0.96em;
 }
 .label-formu{
 	font-size: 1em;
@@ -510,7 +510,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-	color: grey!important;
+	color: black!important;
 }
 
 .icon-lg {
@@ -794,7 +794,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -816,7 +816,7 @@ h4 {
 }
 
 .tc-white {
-	color: #000000!important;
+	color: #FFFFFF!important;
 	font-weight: bold;
 }
 .tc-pastel {
